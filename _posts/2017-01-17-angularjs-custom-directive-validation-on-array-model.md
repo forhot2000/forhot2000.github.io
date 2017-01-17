@@ -24,7 +24,7 @@ app.directive('userSelect', function($q, $window) {
     scope: {
       users: '='
     },
-    template: '<span>{{names}}</span> ' +
+    template: '<span>{% raw %}{{names}}{% endraw %}</span> ' +
               '<button ng-click="open()">select</button> ' +
               '<button ng-click="clear()">clear</button>',
     link: function(scope, elem, attrs) {
@@ -86,7 +86,7 @@ app.directive('userSelect', function($q, $window) {
       users: '=',
       multi: '='
     },
-    template: '<span>{{names}}</span> ' +
+    template: '<span>{% raw %}{{names}}{% endraw %}</span> ' +
               '<button ng-click="open()">select</button> ' +
               '<button ng-click="clear()">clear</button>',
     link: function(scope, elem, attrs) {
@@ -172,7 +172,7 @@ app.directive('userSelect', function($q, $window) {
       multi: '='
     },
     require: 'ngModel',
-    template: '<span>{{names}}</span> ' +
+    template: '<span>{% raw %}{{names}}{% endraw %}</span> ' +
               '<button ng-click="open()">select</button> ' +
               '<button ng-click="clear()">clear</button>',
     link: function(scope, elem, attrs, ctrl) {
