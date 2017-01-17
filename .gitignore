@@ -1,1 +1,18 @@
-_site/
+# macos
+.DS_STORE
+
+# nodejs
+node_modules
+
+# github pages
+.bundle
+code
+_site
+.sass-cache
+.jekyll-metadata
+js/*
+downloads/*.zip
+vendor/bundle
+
+# editors
+.vscode
