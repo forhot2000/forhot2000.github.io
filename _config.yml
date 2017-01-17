@@ -18,7 +18,7 @@ title: Forhot2000's Blog
 email: forhot2000@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   A Personal blog to save technical questions
-baseurl: "/forhot2000" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://forhot2000.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: forhot2000
 github_username:  forhot2000
