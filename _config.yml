@@ -14,7 +14,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Forhot2000's Blog
+title: 水滴石穿
+author: West Wang
 email: forhot2000@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   A Personal blog to save technical questions
