@@ -7,7 +7,7 @@ categories: linux
 
 最近某个客户请了安全公司扫描了下他们的服务器，发现 SSH 存在许多安全漏洞，原因是 CentOS 7 使用了一个比较旧的 OpenSSH 版本 v6.6.1，而这些漏洞在新版的 OpenSSH 中均已被修复，所以我们就开始了升级 OpenSSH 的趟坑之旅。
 
-首先，yum 仓库中并没有最新版的 OpenSSH，我们需要自己制作 rpm 安装包，我在网站找到了一篇帖子 https://tuxciti.com/2017/02/23/upgrading-openssh-on-centos-6-or-7/，这里仅将我修改后的脚本放出来，不再重复帖子的内容了
+首先，yum 仓库中并没有最新版的 OpenSSH，我们需要自己制作 rpm 安装包，我在网站找到了一篇帖子 [Upgrading OpenSSH on CentOS 6 or 7](https://tuxciti.com/2017/02/23/upgrading-openssh-on-centos-6-or-7/)，这里仅将我修改后的脚本放出来，不再重复帖子的内容了
 
 ```sh
 yum install -y wget rpm-build gcc make wget openssl-devel krb5-devel pam-devel libX11-devel xmkmf libXt-devel
