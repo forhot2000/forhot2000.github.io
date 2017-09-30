@@ -48,7 +48,7 @@ java -jar target/sprint-sleuth-test-admin-0.0.1-SNAPSHOT.jar
 {
   "scm-url": "/d/git/spring-sleuth-test.git",
   "build-url": "http://jenkins.example.com/jobs/build/28",
-  "name": "sprint-sleuth-test-admin"
+  "name": "sprint-sleuth-test-admin",
   "version": "0.0.1-SNAPSHOT",
   "description": "description for this application"
 }
