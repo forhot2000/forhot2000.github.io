@@ -39,17 +39,17 @@ mvn clean package
 运行程序
 
 ```sh
-java -jar target/sprint-sleuth-test-admin-*.jar
+java -jar target/sprint-sleuth-test-admin-0.0.1-SNAPSHOT.jar
 ```
 
 测试结果，打开 `localhost:8080/info` 可以得到如下结果：
 
 ```json
 {
-  scm-url: "/d/git/spring-sleuth-test.git",
-  build-url: "http://jenkins.example.com/jobs/build/28",
-  name: "sprint-sleuth-test-admin"
-  version: "0.0.1-SNAPSHOT",
-  description: "description for this application"
+  "scm-url": "/d/git/spring-sleuth-test.git",
+  "build-url": "http://jenkins.example.com/jobs/build/28",
+  "name": "sprint-sleuth-test-admin"
+  "version": "0.0.1-SNAPSHOT",
+  "description": "description for this application"
 }
 ```
