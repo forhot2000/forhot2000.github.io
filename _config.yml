@@ -18,9 +18,7 @@ title: 水滴石穿
 author: West Wang
 email: forhot2000@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=18115154" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;">
-    <img style="float: left; width: 20px;" src="//img.alicdn.com/tfs/TB1..50QpXXXXX7XpXXXXXXXXXX-40-40.png"><span style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">粤ICP备18115154号</span>
-  </a>
+  A Personal blog to save technical questions
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://forhot2000.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: forhot2000

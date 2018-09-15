@@ -1,3 +1,3 @@
 # Personal blog page
 
-Enter [http://forhot2000.github.io](http://forhot2000.github.io)
+Enter [https://forhot2000.github.io](https://forhot2000.github.io)
